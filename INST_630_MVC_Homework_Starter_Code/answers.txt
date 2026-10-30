@@ -1,0 +1,24 @@
+Cole Inniss
+INST630
+Oct 29, 2026
+
+priceRange is an example of data about each resturant (model's array).
+
+
+• 1. What problem does MVC help solve?
+It makes it easier for an organization to break down where things need to be fixed if something breaks. When I needed to figure out where code needed to be added, it started to make sense. Each component has a job.
+
+• 2. Why should the Controller not contain the rule restaurant.rating >= 4.5?
+The controller doesn't hold the rule; the model does. It keeps it simple and separate, but also the controller is responsible for passing the filtered data to the view.
+
+• 3. If cards were replaced with a table, which component would change most?
+The view component would change the most. You would start using HTML tags to build a table and add rows/columns, etc.
+
+• 4. Does MVC require three separate JavaScript files?
+No, but it does make organization so much easier to see. It would make the document very long, depending on how complex it is.
+
+• 5. If data came from a REST API, which component should manage it?
+The model component would be responsible for managing the rest API. It's in charge of holding the array of datas.
+
+MVC Detective:
+Its wrong because the controller is doing the model's job. The model is where the rule is set and the controller is responsible for waiting for a "click." If the rule is applied in the controller, it'll ignore the model if you changed the rule.
